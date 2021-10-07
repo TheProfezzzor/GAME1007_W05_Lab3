@@ -1,12 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Init function. Sets up SDL and all of its subsystems.
-void Init()
-{
-	cout << "Initializing game..." << endl;
-}
-
+void Init(); // Function prototype.
 
 // HandleEvents function. Gets all input from user.
 void HandleEvents()
@@ -60,3 +55,10 @@ int main()
 	return Run();
 }
 
+// Init function. Sets up SDL and all of its subsystems.
+void Init()
+{
+	cout << "Initializing game..." << endl;
+}
+
+// This is the end. But also... the beginning.
