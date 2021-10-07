@@ -7,6 +7,7 @@ void Init()
 	cout << "Initializing game..." << endl;
 }
 
+
 // HandleEvents function. Gets all input from user.
 void HandleEvents()
 {
